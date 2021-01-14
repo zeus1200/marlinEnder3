@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 18.91
-  #define DEFAULT_Ki 1.11
-  #define DEFAULT_Kd 80.70
+  #define DEFAULT_Kp 16.63
+  #define DEFAULT_Ki 0.72
+  #define DEFAULT_Kd 95.96
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -541,9 +541,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 66.09
-  #define DEFAULT_bedKi 12.88
-  #define DEFAULT_bedKd 226.04
+  #define DEFAULT_bedKp 96.81
+  #define DEFAULT_bedKi 16.77
+  #define DEFAULT_bedKd 372.48
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -983,7 +983,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 35, -2, -1.47 }
+#define NOZZLE_TO_PROBE_OFFSET { 35, -2, -1.57 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
